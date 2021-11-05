@@ -11,6 +11,12 @@
     <name>json</name>
     <url>https://www.noannotation.org</url>
 
+    <scm>
+        <url>scm:git:file://.</url>
+        <developerConnection>scm:git:file://.</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
