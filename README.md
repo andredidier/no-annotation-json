@@ -1,3 +1,5 @@
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/andredidier/no-annotation-json?sort=semver)
+
 [![alt text][elegant_objects_badge]][elegant_objects]
 
 # Introduction

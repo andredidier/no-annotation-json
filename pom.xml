@@ -126,6 +126,7 @@
                 <configuration>
                     <goals>install</goals>
                     <scmCommentPrefix>doc:</scmCommentPrefix>
+                    <tag>v${project.version}</tag>
                 </configuration>
             </plugin>
             <plugin>
