@@ -1,4 +1,5 @@
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/andredidier/no-annotation-json?sort=semver)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/andredidier/no-annotation-json?sort=semver&style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/andredidier/no-annotation-json?style=plastic)
 
 [![alt text][elegant_objects_badge]][elegant_objects]
 
