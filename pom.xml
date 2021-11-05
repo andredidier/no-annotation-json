@@ -100,9 +100,19 @@
         </pluginManagement>
         <plugins>
             <plugin>
-                <artifactId>maven-deploy-plugin</artifactId>
+                <artifactId>maven-release-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>prepare-release</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>prepare</goal>
+                            <goal>perform</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <configuration>
-                    <skip>true</skip>
+                    <goals>install</goals>
                 </configuration>
             </plugin>
             <plugin>
