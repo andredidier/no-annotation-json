@@ -113,6 +113,8 @@
                 </executions>
                 <configuration>
                     <goals>install</goals>
+                    <scmCommentPrefix>doc: </scmCommentPrefix>
+                    <tagNameFormat>${project.artifactId}-${project.version}</tagNameFormat>
                 </configuration>
             </plugin>
             <plugin>
