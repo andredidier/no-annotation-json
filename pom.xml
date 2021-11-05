@@ -12,8 +12,7 @@
     <url>https://www.noannotation.org</url>
 
     <scm>
-        <url>scm:git:file://.</url>
-        <developerConnection>scm:git:file://.</developerConnection>
+        <connection>scm:git:${project.basedir}</connection>
         <tag>HEAD</tag>
     </scm>
 
