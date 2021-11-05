@@ -101,16 +101,6 @@
         <plugins>
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>prepare-release</id>
-                        <phase>install</phase>
-                        <goals>
-                            <goal>prepare</goal>
-                            <goal>perform</goal>
-                        </goals>
-                    </execution>
-                </executions>
                 <configuration>
                     <goals>install</goals>
                     <scmCommentPrefix>doc: </scmCommentPrefix>
