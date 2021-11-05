@@ -5,6 +5,5 @@
     <ignoreVersions>
         <ignoreVersion type="regex">.*-beta.*</ignoreVersion>
         <ignoreVersion type="regex">.*-jboss.*</ignoreVersion>
-        <ignoreVersion type="regex">.*-M[0-9]+</ignoreVersion>
     </ignoreVersions>
 </ruleset>
